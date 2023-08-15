@@ -87,16 +87,22 @@ while True:
             arr = response2.text.strip().split('\n')
                 
 
-            for i in range(len(arr)):
-                if arr[i].startswith('#EXT-X-MEDIA'):
-                    find_index = arr[i].find('1080p60')
-                    find_index2 = arr[i].find('720p60')
-                    if find_index==-1 and find_index2==-1:
-                        continue
-                    else:
-                        tmp_url = arr[i+1]
-                        if not tmp_url.startswith('http'):
-                            tmp_url = arr[i+2]
+        for i in range(len(arr)):
+            if arr[i].startswith('#EXT-X-MEDIA'):
+                find_index = arr[i].find('1080p60')
+                find_index2 = arr[i].find('720p60')
+                if find_index==-1 and find_index2==-1:
+                    continue
+                elif find_index!=-1:
+                    tmp_url = arr[i+1]
+                    if not tmp_url.startswith('http'):
+                        tmp_url = arr[i+2]
+                    break
+                else
+                    tmp_url = arr[i+1]
+                    if not tmp_url.startswith('http'):
+                        tmp_url = arr[i+2]
+                    break
 
         stream_url = tmp_url
 
