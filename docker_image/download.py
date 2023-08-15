@@ -85,7 +85,7 @@ while True:
                     if not tmp_url.startswith('http'):
                         tmp_url = arr[i+2]
                     break
-                else
+                else :
                     tmp_url = arr[i+1]
                     if not tmp_url.startswith('http'):
                         tmp_url = arr[i+2]
