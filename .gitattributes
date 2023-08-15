@@ -1,0 +1,2 @@
+standalone/ffmpeg.exe filter=lfs diff=lfs merge=lfs -text
+docker_image/google-chrome-stable_current_amd64.deb filter=lfs diff=lfs merge=lfs -text
