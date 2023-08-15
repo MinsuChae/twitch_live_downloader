@@ -36,10 +36,16 @@ docker start twitch_down
 (내부적으로 python 을 foreground로 수행되기 때문에 위와 같이 실행하시는게 편합니다.)
 ## 사용하는 프로그램 및 라이브러리
 [python](https://www.python.org/)
+
 [selenium-wire](https://pypi.org/project/selenium-wire/)
+
 [requests](https://pypi.org/project/requests/)
+
 [ffmpeg](https://www.ffmpeg.org/)
+
 [chrome](https://www.google.com/chrome/)
+
 [chromedriver](https://chromedriver.chromium.org/downloads)
+
 
 
