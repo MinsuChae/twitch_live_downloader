@@ -8,7 +8,7 @@ account.example.json 파일에 각 키에 해당하는 값을 붙여넣고 해�
 ![explain remove ad](https://github.com/MinsuChae/twitch_live_downloader/blob/main/image.png?raw=true)
 ### 저장 장소
 info.json 파일에서 output 파일을 지정합니다.
-윈도우를 기준으론 파일 탐색기에서 경로를 복사하여 붙여넣은 후 \가 나오는 부분을 \\으로 변경해주시기 바랍니다.
+윈도우를 기준으론 파일 탐색기에서 경로를 복사하여 붙여넣은 후 \\가 나오는 부분을 \\\\으로 변경해주시기 바랍니다.
 ## 수행방법
 ### 스탠다드 얼론
 윈도우 기반으로 작성하였습니다.
